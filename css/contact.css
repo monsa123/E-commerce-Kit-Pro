@@ -1,0 +1,370 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  padding: 18px 16px;
+  background-color: #000000;
+}
+.header:hover {
+  color: #ff0000;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: gray;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.home-wrap {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+}
+.logo {
+    width: 30%;
+    text-align: left;
+}
+.header-list {
+    width: 50%;
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+}
+.list-wrap {
+    list-style: none;
+    margin: 0;
+}
+.header-list .list-wrap li {
+    display: inline-block;
+    margin-left: 35px;
+}
+.header-list .list-wrap li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.header-list .list-wrap li a:hover {
+    color: #ff0000;
+}
+.navbar {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.navbar:hover{
+  color: #ff0000;
+}
+.buy-now a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: #1ac522;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 6px 12px;
+}
+.buy-now a:hover{
+  background-color: #ffffff;
+  padding: 6px 12px;
+  color: #000000;
+}
+.buy-now{
+  padding-top: 8px;
+}
+
+/* BANNER CONTAINT */
+
+.banner-wrap {
+    position: relative;
+}
+.banner-img {
+    width: 100%;
+    height: 700px;
+}
+.banner-containt {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+.banner-para {
+    margin: 0;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+    line-height: 45px;
+}
+i.fa.fa-chevron-right {
+   font-size: 14px;
+}
+.banner-title {
+    margin: 0;
+    font-size: 70px;
+    color: #ffffff;
+    line-height: 80px;
+    letter-spacing: 4px;
+}
+.banner-btn {
+    margin-top: 80px;
+}
+.banner-btn a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color: #ff0000;
+    padding: 15px 17px;
+    border-radius: 50px;
+}
+.banner-btn a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transition: 1.1s;
+}
+
+/* CONTACT PORTAITON */
+
+.contact {
+  margin: 0;
+text-align: center;
+margin-top: 80px;
+margin-bottom: 50px;
+font-size: 40px;
+font-family: sans-serif;
+font-weight: normal;
+color: #f75757;
+}
+.con-spa {
+    font-size: 45px;
+    color: #000000;
+}
+.con-para {
+    margin: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #ff0000;
+}
+.con-sub {
+    margin: 0;
+    margin-top: 30px;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+.conta-qna {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    color: #777777;
+}
+.fa.fa-mobile {
+    font-size: 30px;
+    color: #f75757;
+}
+.con-number {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.contact-containt {
+    background-color: #ffffff;
+    box-shadow: 0 0 0.8em #000, 0 0 0.6em #fff;
+    width: 32%;
+    padding-left: 50px;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+.contact-wrap {
+    background-image: url(../images/overlay-1.png);
+    height: 700px;
+    padding-top: 330px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* LAST CONTACT */
+
+.last-wraper {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 100px;
+}
+.left-para {
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #f75757;
+}
+.left-contact {
+    width: 50%;
+    margin: 0;
+}
+.left-title {
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 1.5;
+    text-align: left;
+}
+.right-contact {
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    margin-top: 80px;
+}
+.right-contact a {
+    text-decoration: none;
+    background-color: #f75757;
+    color: #ffffff;
+    padding: 15px 25px;
+    font-family: sans-serif;
+    border-radius: 25px;
+}
+.right-contact a:hover {
+  background-color: #fff;
+  border: solid 1px #000;
+  color: #000;
+  transition: 1.1s;
+}
+
+.last-contact {
+    margin-bottom: 100px;
+}
+.last-wraper {
+    background-color: #fff;
+    box-shadow: 0 0 0.8em #fff, 0 0 0.6em #000;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    border-radius: 25px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #000000;
+  padding-top: 50px;
+}
+.footer-wraper{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer-column{
+  width: 20%;
+  margin: 0 auto;
+}
+.fa.fa-instagram {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.fa.fa-instagram:hover {
+   color: #ff0000;
+   transition: 1.1s;
+}
+.fa.fa-facebook {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.fa.fa-facebook:hover {
+   color: #ff0000;
+   transition: 1.1s;
+}
+.fa.fa-twitter {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+}
+.fa.fa-twitter:hover{
+   color: #ff0000;
+   transition: 1.1s;
+}
+.footer-list{
+  list-style: none;
+  padding: 0;
+}
+.footer-sb {
+    margin: 0;
+    font-size: 22px;
+    font-family: Ink Free Regular;
+    color: #ffffff;
+}
+.build-para {
+    margin: 0;
+    font-size: 20px;
+    font-family: Corbel Light;
+    font-weight: 600;
+    padding-top: 15px;
+    color: #ffffff;
+}
+.contct-img {
+   height: 25px;
+   margin-top: 15px;
+   margin-right: 20px;
+}
+.contct-img:hover{
+  color: #ff0000;
+}
+.footer-title {
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.footer-para {
+    margin: 0;
+    text-align: left;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.copy{
+  text-align: center;
+}
+.copy-right {
+    margin: 0;
+    color: #ffffff;
+    font-family: monospace;
+    background-color: #000;
+    padding: 20px;
+}
